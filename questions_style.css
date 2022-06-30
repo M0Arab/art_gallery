@@ -1,0 +1,118 @@
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.itemWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(20px,80px,90px);
+}
+
+.questionWrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.answerWrapper {
+    display: none;
+    width: 100%;
+    height: fit-content;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid gray;
+    padding: 20px;
+    color: gray;
+}
+
+.answerButton {
+    text-align: center;
+    width: 70px;
+    color: white;
+    background: #49C6E5;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.92);
+    height: 30px;
+    margin-top: 30px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+.answerButton:hover{
+    background: #3fd5fa;
+}
+
+.modalWrapperInvisible{
+    display: none;
+}
+.modalWrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answerFormModal {
+    width: 30%;
+    height: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.questionButtonWrapper {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 10%;
+    bottom: 10%;
+    cursor: pointer;
+}
+.questionFormModal {
+    width: 30%;
+    height: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+ .styledForm {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: start;
+     width: 90%;
+
+ }
+ .closeModalButton {
+     position: absolute;
+     top: 0;
+     left: 5%;
+     margin-top: 90px;
+     cursor: pointer;
+ }

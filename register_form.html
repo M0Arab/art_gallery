@@ -1,0 +1,27 @@
+<html>
+<header>
+    <link href="./login_style.css" rel="stylesheet"/>
+</header>
+<body>
+<div class="loginCardWrapper">
+    <h1>Acoount aanmaken</h1>
+    <form action="create_user.php" method="post">
+        <div class="inputWrapper">
+            <h2>gebruikersnaam</h2>
+            <input type="text" placeholder="gebruikersnaam" name="username" id="username"/>
+        </div>
+
+        <div class="inputWrapper">
+            <h2>Email adres</h2>
+            <input type="email" placeholder="email adres" name="email" id="email"/>
+        </div>
+
+        <div class="inputWrapper">
+            <h2>wachtwoord</h2>
+            <input type="password" placeholder="wachtwoord" name="password" id="password"/>
+        </div>
+        <button class="loginButton">Login</button>
+    </form>
+</div>
+</body>
+</html>

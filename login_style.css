@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #54DEFD;
+}
+
+.loginCardWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.92);
+    background: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.loginButton {
+    text-align: center;
+    width: 50%;
+    color: white;
+    background: #49C6E5;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.92);
+    height: 30px;
+    margin-top: 30px;
+    border: none
+}
+
+.loginButton:hover{
+    background: #3fd5fa;
+}
+
+.inputWrapper {
+
+    width: 70%;
+    margin-top: 20px;
+}
+
+input {
+    outline: none;
+    border: none;
+    height: 30px;
+    outline: 1px solid #49C6E5;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}

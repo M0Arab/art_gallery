@@ -1,0 +1,49 @@
+.pageWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #01899d;
+
+}
+body{
+    margin: 0;
+}
+.artFormCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(500px,40%,100%);
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+}
+
+.artForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.submitButton {
+    text-align: center;
+    width: 50%;
+    color: white;
+    background: #49C6E5;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.92);
+    height: 30px;
+    margin-top: 30px;
+    border: none
+}
+
+.submitButton:hover{
+    background: #3fd5fa;
+}
+input {
+    outline: 2px solid #49C6E5;
+}
+textarea{
+    outline: 2px solid #49C6E5;
+}
